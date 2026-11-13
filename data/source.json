@@ -1,0 +1,95 @@
+{
+  "crs": "LOCAL-HUB-1",
+  "regions": [
+    {
+      "row_id": "z1",
+      "geometry": {
+        "type": "Polygon",
+        "rings": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              10,
+              0
+            ],
+            [
+              10,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "tracks": [
+    {
+      "row_id": "p1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3,
+          5
+        ]
+      }
+    },
+    {
+      "row_id": "p2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "row_id": "l1",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1,
+            5
+          ],
+          [
+            9,
+            5
+          ]
+        ]
+      }
+    }
+  ]
+}
